@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    
+    
+    }
+
+    nav{
+        width: 100%;
+        height: 75px;
+        padding: 0px 20px;
+        line-height: 75px;
+    
+        
+
+
+    }
+
+    nav p{
+        float: left;
+        font-size: 32px;
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        
+
+    }
+
+    nav ul{
+        float: right;
+    }
+
+    nav li{
+        display: inline-block;
+        padding: 0px 30px;
+        list-style: none;
+        text-decoration: none;
+        color: black;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .dropdown{
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropbtn{
+      background-color: #25658e;
+      padding: 16px 16px;
+      border: none;
+    }
+
+    .dropdown-content{
+      display: none;
+      position: absolute;
+      background-color: #EEEEEEEE;
+      z-index: 1;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      padding: 2px;
+    }
+
+    .dropdown-content a{
+      text-decoration: none;
+      color: black;
+      padding: 6px;
+      display: block;
+
+    }
+
+    .dropdown .dropbtn:hover{
+      opacity: 0.9;
+    
+    }
+
+    .dropdown:hover .dropdown-content{
+      display: block;
+    }
+
+    .dropdown-content a:hover{
+       background-color: #CCCCCC;
+    }
+
+    
+
+    </style>
+<body>
+    <nav>
+        <div class="logo">
+            <p>YOURCATION</p>
+            <ul>
+                <li>BOOK</li>
+                <li>RESERVE</li>
+                <div class="dropdown">
+               <li><button class="dropbtn">MENU</button></li>
+                  <div class="dropdown-content">
+                    <a href="#">ABOUT</a>
+                    <a href="#">LOCATIONS</a>
+                    <a href="#">STORES</a>
+                  </div>
+                </div>
+
+                
+                    
+            
+            
+                     
+      
+
+        
+            </ul>
+        </div>
+    </nav>
+
+    
+</body>
+</html>
